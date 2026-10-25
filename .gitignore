@@ -1,0 +1,5 @@
+dist/
+build/
+parry_haptic.json
+__pycache__/
+build.bat

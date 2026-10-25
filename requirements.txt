@@ -1,0 +1,9 @@
+﻿numpy==2.5.2
+scipy==1.18.0
+PyAudioWPatch==0.2.12.9
+hidapi==0.15.0
+psutil==5.9.6
+pystray==0.19.5
+pillow==12.3.0
+# exe 빌드용
+pyinstaller==6.16.0
