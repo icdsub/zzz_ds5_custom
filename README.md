@@ -59,3 +59,15 @@ PC에서 젠레스를 듀얼센스로 하게되면 사운드 채우기로 유사
 
 ## 라이선스
 Copyright 2026 icdsub. MIT License로 배포.
+
+## 서드파티 라이선스
+exe에는 아래 패키지가 수정 없이 그대로 들어 있고, 각자의 라이선스를 따른다.
+
+- numpy, scipy, psutil: BSD-3-Clause
+- hidapi: BSD-3-Clause 선택 (BSD / GPLv3 이중 라이선스)
+- Pillow: MIT-CMU (HPND)
+- PyAudioWPatch: Apache-2.0
+- pystray: LGPL-3.0
+- PyInstaller: GPL-2.0 + 예외 조항 (만든 exe에는 제약 없음)
+
+pystray는 LGPL-3.0이라 소스 전체와 빌드 방법(`.github/workflows/release.yml`)을 공개해 누구나 다시 빌드할 수 있게 했다.
